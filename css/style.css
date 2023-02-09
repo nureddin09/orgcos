@@ -1,0 +1,1018 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+.container1 {
+  width: 90%;
+  margin: auto;
+}
+
+#organiccosmetics1 {
+  position: relative;
+  background-image: url(/image/pscratches.jpg);
+}
+#organiccosmetics1 .org-cos-box {
+  position: relative;
+  width: 100%;
+  top: 90px;
+  height: 1000px;
+}
+#organiccosmetics1 .org-cos-box .imag1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#organiccosmetics1 .org-cos-box .imag2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#organiccosmetics1 .org-cos-box .imag3 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+#organiccosmetics1 .org-cos-box .textover {
+  position: absolute;
+  width: 913px;
+  height: 200px;
+  top: 40%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+#organiccosmetics1 .org-cos-box .textover h1 {
+  font-family: "Mr De Haviland";
+  font-size: 200px;
+}
+#organiccosmetics1 .org-cos-box .rmorebox .rmore {
+  width: 206px;
+  height: 61px;
+  background-color: black;
+  position: relative;
+  top: 670px;
+  left: 450px;
+}
+#organiccosmetics1 .org-cos-box .rmorebox .rmore::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 1px;
+  width: 42px;
+  top: 30px;
+  left: 30px;
+}
+#organiccosmetics1 .org-cos-box .rmorebox .rmore a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 22px 50px;
+  padding-right: 10px;
+  font-family: Roboto;
+}
+
+#organiccosmetics2 {
+  position: relative;
+  background-image: url(/image/parallax_01.jpg);
+  background-size: cover;
+}
+#organiccosmetics2 .org-cos-box2 {
+  padding: 100px 0;
+}
+#organiccosmetics2 .org-cos-box2 .productstext {
+  width: 500px;
+}
+#organiccosmetics2 .org-cos-box2 .productstext h2 {
+  font-size: 48px;
+  font-family: Prata;
+  color: #fff;
+}
+#organiccosmetics2 .org-cos-box2 .productstext p {
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: Prata;
+  color: #fff;
+}
+#organiccosmetics2 .org-cos-box2 .producticon {
+  width: 498px;
+  height: 164px;
+  text-align: center;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconorganic {
+  padding: 25px;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconorganic i {
+  font-size: 60px;
+  color: #DFBA9F;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconorganic h6 {
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  color: #fff;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconwiderange {
+  padding: 25px;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconwiderange i {
+  font-size: 60px;
+  color: #DFBA9F;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconwiderange h6 {
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  color: #fff;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconcertified {
+  padding: 25px;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconcertified i {
+  font-size: 60px;
+  color: #DFBA9F;
+}
+#organiccosmetics2 .org-cos-box2 .producticon .iconcertified h6 {
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  color: #fff;
+}
+#organiccosmetics2 .org-cos-box2 .rmorebox .rmore {
+  z-index: 1;
+  width: 206px;
+  height: 61px;
+  background-color: #DFBA9F;
+  position: relative;
+  border: none;
+}
+#organiccosmetics2 .org-cos-box2 .rmorebox .rmore:hover::after {
+  transform: scale(1);
+}
+#organiccosmetics2 .org-cos-box2 .rmorebox .rmore a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 21px 80px;
+  padding-right: 10px;
+  font-family: Roboto;
+}
+#organiccosmetics2 .org-cos-box2 .rmorebox .rmore a::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 1px;
+  width: 42px;
+  top: 31px;
+  left: 45px;
+}
+#organiccosmetics2 .org-cos-box2 .rmorebox .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: white;
+  height: 61px;
+  width: 206px;
+  top: 0%;
+  left: 0%;
+  transition: 0.2s linear;
+  transform: scale(0);
+}
+
+#organiccosmetics3 {
+  background-image: url(/image/parallax_02_2.jpg);
+  background-size: cover;
+}
+#organiccosmetics3 .org-cos-box3 {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .leftsbox h2 {
+  font-size: 48px;
+  font-family: Prata;
+  padding-bottom: 20px;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .leftsbox span {
+  font-size: 18px;
+  font-family: Prata;
+  display: inline-block;
+  padding-bottom: 100px;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox {
+  padding: 10px;
+  position: relative;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox::before {
+  content: "";
+  position: absolute;
+  width: 575px;
+  height: 1px;
+  background-color: #000;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox h4 {
+  font-size: 18px;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox p {
+  font-size: 14px;
+  font-family: Ubuntu;
+  opacity: 0.4;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox span {
+  font-size: 16px;
+  font-family: Ubuntu;
+  color: #fff;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox .rmorebox .rmore {
+  z-index: 1;
+  width: 153px;
+  height: 41px;
+  background-color: #000;
+  position: relative;
+  border: none;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox .rmorebox .rmore:hover::after {
+  transform: scale(1);
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox .rmorebox .rmore:hover a {
+  color: #000;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox .rmorebox .rmore:hover a::before {
+  background-color: #000;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox .rmorebox .rmore a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 11px 30px;
+  padding-right: 6px;
+  font-family: Ubuntu;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox .rmorebox .rmore a::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 1px;
+  width: 22px;
+  top: 22px;
+  left: 25px;
+}
+#organiccosmetics3 .org-cos-box3 .servicesbox .rightsbox .sbox .rmorebox .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: white;
+  height: 41px;
+  width: 153px;
+  top: 0%;
+  left: 0%;
+  transition: 0.2s linear;
+  transform: scale(0);
+}
+
+#organiccosmetics4 {
+  background-image: url(/image/parallax_03.jpg);
+  background-size: cover;
+}
+#organiccosmetics4 .org-cos-box4 {
+  text-align: center;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup {
+  padding: 135px 0;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup h2 {
+  font-family: Mrs Saint Delafield;
+  font-size: 60px;
+  color: #DFBA9F;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup h1 {
+  font-size: 60px;
+  font-family: Prata;
+  color: #fff;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup p {
+  font-size: 18px;
+  color: #fff;
+  padding: 0 250px;
+  font-family: Prata;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox {
+  padding: 50px 0;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox .rmore {
+  z-index: 1;
+  width: 206px;
+  height: 61px;
+  background-color: #DFBA9F;
+  position: relative;
+  border: none;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox .rmore:hover::after {
+  transform: scale(1);
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox .rmore:hover a {
+  color: #fff;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox .rmore:hover a::before {
+  background-color: #fff;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox .rmore a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 21px 80px;
+  padding-right: 10px;
+  font-family: Roboto;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox .rmore a::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 1px;
+  width: 42px;
+  top: 31px;
+  left: 45px;
+}
+#organiccosmetics4 .org-cos-box4 .formakeup .rmorebox .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #000;
+  height: 61px;
+  width: 206px;
+  top: 0%;
+  left: 0%;
+  transition: 0.2s linear;
+  transform: scale(0);
+}
+
+#organiccosmetics5 {
+  background-image: url(/image/parallax-white.jpg);
+  background-size: 1880px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+#organiccosmetics5 .mainsecret {
+  padding: 200px 0;
+}
+#organiccosmetics5 .mainsecret h2 {
+  font-size: 48px;
+  font-family: Mrs Saint Delafield;
+  color: #DFBA9F;
+}
+#organiccosmetics5 .mainsecret h1 {
+  font-size: 48px;
+  font-family: Prata;
+}
+#organiccosmetics5 .mainsecret p {
+  font-size: 16px;
+  font-family: Ubuntu;
+  padding: 20px 0;
+  padding-right: 50px;
+}
+#organiccosmetics5 .mainsecret .rmorebox {
+  padding: 50px 0;
+}
+#organiccosmetics5 .mainsecret .rmorebox .rmore {
+  z-index: 1;
+  width: 206px;
+  height: 61px;
+  background-color: #DFBA9F;
+  position: relative;
+  border: none;
+}
+#organiccosmetics5 .mainsecret .rmorebox .rmore:hover::after {
+  transform: scale(1);
+}
+#organiccosmetics5 .mainsecret .rmorebox .rmore:hover a {
+  color: #fff;
+}
+#organiccosmetics5 .mainsecret .rmorebox .rmore:hover a::before {
+  background-color: #fff;
+}
+#organiccosmetics5 .mainsecret .rmorebox .rmore a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 21px 80px;
+  padding-right: 10px;
+  font-family: Roboto;
+}
+#organiccosmetics5 .mainsecret .rmorebox .rmore a::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 1px;
+  width: 42px;
+  top: 31px;
+  left: 45px;
+}
+#organiccosmetics5 .mainsecret .rmorebox .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #000;
+  height: 61px;
+  width: 206px;
+  top: 0%;
+  left: 0%;
+  transition: 0.2s linear;
+  transform: scale(0);
+}
+
+#organiccosmetics6 {
+  background-image: url(/image/shop_BG.jpg);
+  background-size: cover;
+  padding-bottom: 150px;
+}
+#organiccosmetics6 .onlinestoremain {
+  padding-top: 100px;
+  text-align: center;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore1 {
+  text-align: center;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore1 h2 {
+  font-size: 48px;
+  color: #DFBA9F;
+  font-family: Mrs Saint Delafield;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore1 h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: Prata;
+  line-height: 1.1rem;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 {
+  text-align: center;
+  padding-left: 75px;
+  padding-top: 50px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 {
+  position: relative;
+  width: 360px;
+  height: 480px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 span {
+  color: #DFBA9F;
+  font-size: 16px;
+  font-family: Ubuntu;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .price {
+  display: inline-block;
+  padding-top: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1:hover .rmorebox1 {
+  visibility: visible;
+  opacity: 1;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1:hover .rmorebox2 {
+  visibility: visible;
+  opacity: 1;
+  top: 80%;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.438);
+  visibility: none;
+  opacity: 0;
+  transition: 0.2s linear;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox1 {
+  padding: 50px 0;
+  position: absolute;
+  top: 56%;
+  left: 30px;
+  transition: 0.3s linear;
+  visibility: none;
+  opacity: 0;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox1 .rmore {
+  z-index: 1;
+  width: 301px;
+  height: 58px;
+  background-color: #fff;
+  position: relative;
+  border: none;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox1 .rmore:hover::after {
+  height: 58px;
+  width: 301px;
+  visibility: visible;
+  opacity: 1;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox1 .rmore a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 21px 80px;
+  font-family: Roboto;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox1 .rmore a i {
+  padding: 0 10px;
+  font-size: 15px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox1 .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #DFBA9F;
+  height: 58px;
+  width: 301px;
+  top: 0%;
+  left: 0%;
+  transition: 0.3s linear;
+  visibility: hidden;
+  opacity: 0;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 {
+  position: absolute;
+  top: 90%;
+  left: 30px;
+  transition: 0.2s linear;
+  visibility: none;
+  opacity: 0;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 .rmore {
+  z-index: 1;
+  width: 301px;
+  height: 58px;
+  background-color: #000;
+  position: relative;
+  border: none;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 .rmore:hover::after {
+  transform: scale(1);
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 .rmore:hover a {
+  color: #fff;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 .rmore:hover a::before {
+  background-color: #fff;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 .rmore a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 21px 80px;
+  font-family: Roboto;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 .rmore a i {
+  padding: 0 10px;
+  font-size: 20px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox1 .img1 .rmorebox2 .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #DFBA9F;
+  height: 58px;
+  width: 301px;
+  top: 0%;
+  left: 0%;
+  transition: 0.2s linear;
+  transform: scale(0);
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 {
+  position: relative;
+  width: 360px;
+  height: 480px;
+  margin-top: 120px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 span {
+  color: #FF735D;
+  font-size: 16px;
+  font-family: Ubuntu;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .delet {
+  color: grey;
+  font-weight: bold;
+  padding: 0 5px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .price {
+  display: inline-block;
+  padding-top: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 {
+  position: relative;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1:hover .rmorebox1 {
+  visibility: visible;
+  opacity: 1;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1:hover .rmorebox2 {
+  visibility: visible;
+  opacity: 1;
+  top: 80%;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .salebox {
+  z-index: 3;
+  position: absolute;
+  top: 21px;
+  right: 21px;
+  width: 65px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: #fff;
+  font-weight: bold;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .salebox p {
+  font-size: 12px;
+  pad: 5px 0;
+  display: inline-block;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .overlay {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.438);
+  visibility: none;
+  opacity: 0;
+  transition: 0.2s linear;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox1 {
+  padding: 50px 0;
+  position: absolute;
+  top: 56%;
+  left: 30px;
+  transition: 0.3s linear;
+  visibility: none;
+  opacity: 0;
+  z-index: 4;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox1 .rmore {
+  z-index: 1;
+  width: 301px;
+  height: 58px;
+  background-color: #fff;
+  position: relative;
+  border: none;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox1 .rmore:hover::after {
+  height: 58px;
+  width: 301px;
+  visibility: visible;
+  opacity: 1;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox1 .rmore a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 21px 80px;
+  font-family: Roboto;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox1 .rmore a i {
+  padding: 0 10px;
+  font-size: 15px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox1 .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #DFBA9F;
+  height: 58px;
+  width: 301px;
+  top: 0%;
+  left: 0%;
+  transition: 0.3s linear;
+  visibility: hidden;
+  opacity: 0;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 {
+  position: absolute;
+  top: 90%;
+  left: 30px;
+  transition: 0.2s linear;
+  visibility: none;
+  opacity: 0;
+  z-index: 5;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 .rmore {
+  z-index: 1;
+  width: 301px;
+  height: 58px;
+  background-color: #000;
+  position: relative;
+  border: none;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 .rmore:hover::after {
+  transform: scale(1);
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 .rmore:hover a {
+  color: #fff;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 .rmore:hover a::before {
+  background-color: #fff;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 .rmore a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 21px 80px;
+  font-family: Roboto;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 .rmore a i {
+  padding: 0 10px;
+  font-size: 20px;
+}
+#organiccosmetics6 .onlinestoremain .onlinestore2 .imgbox2 .img1 .rmorebox2 .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #DFBA9F;
+  height: 58px;
+  width: 301px;
+  top: 0%;
+  left: 0%;
+  transition: 0.2s linear;
+  transform: scale(0);
+}
+#organiccosmetics6 .onlinestoremain .rmorebox {
+  padding-top: 200px;
+}
+#organiccosmetics6 .onlinestoremain .rmorebox .rmore {
+  z-index: 1;
+  width: 206px;
+  height: 61px;
+  background-color: #DFBA9F;
+  position: relative;
+  border: none;
+}
+#organiccosmetics6 .onlinestoremain .rmorebox .rmore:hover::after {
+  transform: scale(1);
+}
+#organiccosmetics6 .onlinestoremain .rmorebox .rmore:hover a {
+  color: #000;
+}
+#organiccosmetics6 .onlinestoremain .rmorebox .rmore:hover a::before {
+  background-color: #000;
+}
+#organiccosmetics6 .onlinestoremain .rmorebox .rmore a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 21px 80px;
+  padding-right: 10px;
+  font-family: Roboto;
+}
+#organiccosmetics6 .onlinestoremain .rmorebox .rmore a::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 1px;
+  width: 42px;
+  top: 31px;
+  left: 45px;
+}
+#organiccosmetics6 .onlinestoremain .rmorebox .rmore::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #fff;
+  height: 61px;
+  width: 206px;
+  top: 0%;
+  left: 0%;
+  transition: 0.2s linear;
+  transform: scale(0);
+}
+
+#organiccosmetics7 {
+  background-color: #F9F1EC;
+}
+#organiccosmetics7 .partnerboxes {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  padding: 80px 0;
+}
+#organiccosmetics7 .partnerboxes .partnerbox1 {
+  position: relative;
+}
+#organiccosmetics7 .partnerboxes .partnerbox1::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 170px;
+  background-color: #fff;
+  top: -35px;
+  right: 50px;
+}
+#organiccosmetics7 .partnerboxes .partnerbox2 {
+  position: relative;
+}
+#organiccosmetics7 .partnerboxes .partnerbox2::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 170px;
+  background-color: #fff;
+  top: -35px;
+  right: 50px;
+}
+#organiccosmetics7 .partnerboxes .partnerbox3 {
+  position: relative;
+}
+#organiccosmetics7 .partnerboxes .partnerbox3::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 170px;
+  background-color: #fff;
+  top: -35px;
+  right: 50px;
+}
+#organiccosmetics7 .partnerboxes .partnerbox4 {
+  position: relative;
+}
+#organiccosmetics7 .partnerboxes .partnerbox4::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 170px;
+  background-color: #fff;
+  top: -35px;
+  right: 50px;
+}
+#organiccosmetics7 .partnerboxes .partnerbox5 {
+  position: relative;
+  padding-top: 25px;
+}
+#organiccosmetics7 .partnerboxes .partnerbox5::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 170px;
+  background-color: #fff;
+  top: -35px;
+  right: 35px;
+}
+
+#organiccosmetics8 .newsmain {
+  padding: 120px 0;
+}
+#organiccosmetics8 .newsmain .news {
+  text-align: center;
+}
+#organiccosmetics8 .newsmain .news h2 {
+  font-family: Mrs Saint Delafield;
+  font-size: 48px;
+  color: #DFBA9F;
+  margin-bottom: -11px;
+}
+#organiccosmetics8 .newsmain .news h1 {
+  font-family: Prata;
+  font-size: 48px;
+}
+#organiccosmetics8 .newsmain .imgbox {
+  margin-top: 30px;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 {
+  position: relative;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .imga:hover::before {
+  visibility: visible;
+  opacity: 1;
+  width: 320px;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .imga:hover::after {
+  visibility: visible;
+  opacity: 1;
+  height: 193px;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .imga::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: #fff;
+  top: 15px;
+  left: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .imga::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 0px;
+  background-color: #fff;
+  top: 15px;
+  left: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+#organiccosmetics8 .newsmain .imgbox .img1:hover::before {
+  visibility: visible;
+  opacity: 1;
+  width: 320px;
+}
+#organiccosmetics8 .newsmain .imgbox .img1:hover::after {
+  visibility: visible;
+  opacity: 1;
+  height: 193px;
+}
+#organiccosmetics8 .newsmain .imgbox .img1::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: #fff;
+  bottom: 20px;
+  right: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+#organiccosmetics8 .newsmain .imgbox .img1::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 0px;
+  background-color: #fff;
+  bottom: 20px;
+  right: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox {
+  padding: 30px 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s linear;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore {
+  width: 100px;
+  height: 30px;
+  background-color: #000;
+  position: relative;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore:hover {
+  background-color: #fff;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore:hover a {
+  color: #000;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-family: Ubuntu;
+}
+#organiccosmetics8 .newsmain .imgbox .img1 .bottombox {
+  position: relative;
+  background-color: #FF735D;
+  width: 80%;
+  margin: auto;
+  margin-top: -25px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

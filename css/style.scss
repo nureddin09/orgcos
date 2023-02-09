@@ -1,0 +1,1239 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+.container1 {
+    width: 90%;
+    margin: auto;
+}
+
+#organiccosmetics1 {
+    position: relative;
+    background-image: url(/image/pscratches.jpg);
+
+    .org-cos-box {
+        position: relative;
+        width: 100%;
+        top: 90px;
+        height: 1000px;
+
+        .imag1 {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        .imag2 {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .imag3 {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .textover {
+            position: absolute;
+            width: 913px;
+            height: 200px;
+            top: 40%;
+            left: 50%;
+            z-index: 3;
+            transform: translate(-50%, -50%);
+
+            h1 {
+                font-family: "Mr De Haviland";
+                font-size: 200px;
+            }
+        }
+
+        .rmorebox {
+            .rmore {
+                width: 206px;
+                height: 61px;
+                background-color: black;
+                position: relative;
+                top: 670px;
+                left: 450px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-color: #fff;
+                    height: 1px;
+                    width: 42px;
+                    top: 30px;
+                    left: 30px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding: 22px 50px;
+                    padding-right: 10px;
+                    font-family: Roboto;
+                }
+            }
+        }
+    }
+}
+
+#organiccosmetics2 {
+    position: relative;
+    background-image: url(/image/parallax_01.jpg);
+    background-size: cover;
+
+    .org-cos-box2 {
+        padding: 100px 0;
+
+        .productstext {
+            width: 500px;
+
+            h2 {
+                font-size: 48px;
+                font-family: Prata;
+                color: #fff;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 1.8em;
+                font-family: Prata;
+                color: #fff;
+            }
+        }
+
+        .producticon {
+            width: 498px;
+            height: 164px;
+            text-align: center;
+
+            .iconorganic {
+                padding: 25px;
+
+                i {
+                    font-size: 60px;
+                    color: #DFBA9F;
+                }
+
+                h6 {
+                    font-size: 14px;
+                    font-family: Ubuntu;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+
+            .iconwiderange {
+                padding: 25px;
+
+                i {
+                    font-size: 60px;
+                    color: #DFBA9F;
+                }
+
+                h6 {
+                    font-size: 14px;
+                    font-family: Ubuntu;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+
+            .iconcertified {
+                padding: 25px;
+
+                i {
+                    font-size: 60px;
+                    color: #DFBA9F;
+                }
+
+                h6 {
+                    font-size: 14px;
+                    font-family: Ubuntu;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+        }
+
+        .rmorebox {
+            .rmore {
+                z-index: 1;
+                width: 206px;
+                height: 61px;
+                background-color: #DFBA9F;
+                position: relative;
+                border: none;
+
+                &:hover {
+                    &::after {
+                        transform: scale(1);
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding: 21px 80px;
+                    padding-right: 10px;
+                    font-family: Roboto;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        background-color: black;
+                        height: 1px;
+                        width: 42px;
+                        top: 31px;
+                        left: 45px;
+                    }
+                }
+
+                &::after {
+                    content: '';
+                    z-index: -1;
+                    position: absolute;
+                    background-color: white;
+                    height: 61px;
+                    width: 206px;
+                    top: 0%;
+                    left: 0%;
+                    transition: 0.2s linear;
+                    transform: scale(0);
+                }
+
+            }
+        }
+    }
+}
+
+#organiccosmetics3 {
+    background-image: url(/image/parallax_02_2.jpg);
+    background-size: cover;
+
+    .org-cos-box3 {
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+        .servicesbox {
+            .leftsbox {
+                h2 {
+                    font-size: 48px;
+                    font-family: Prata;
+                    padding-bottom: 20px;
+                }
+
+                span {
+                    font-size: 18px;
+                    font-family: Prata;
+                    display: inline-block;
+                    padding-bottom: 100px;
+                }
+            }
+
+            .rightsbox {
+                .sbox {
+                    padding: 10px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 575px;
+                        height: 1px;
+                        background-color: #000;
+                        opacity: 0.2;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        font-family: Ubuntu;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        font-family: Ubuntu;
+                        opacity: 0.4;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        font-family: Ubuntu;
+                        color: #fff;
+                    }
+
+                    .rmorebox {
+                        .rmore {
+                            z-index: 1;
+                            width: 153px;
+                            height: 41px;
+                            background-color: #000;
+                            position: relative;
+                            border: none;
+
+                            &:hover {
+                                &::after {
+                                    transform: scale(1);
+                                }
+
+                                a {
+                                    color: #000;
+
+                                    &::before {
+                                        background-color: #000;
+                                    }
+                                }
+
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                font-weight: bold;
+                                font-size: 12px;
+                                padding: 11px 30px;
+                                padding-right: 6px;
+                                font-family: Ubuntu;
+
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    background-color: #fff;
+                                    height: 1px;
+                                    width: 22px;
+                                    top: 22px;
+                                    left: 25px;
+                                }
+                            }
+
+                            &::after {
+                                content: '';
+                                z-index: -1;
+                                position: absolute;
+                                background-color: white;
+                                height: 41px;
+                                width: 153px;
+                                top: 0%;
+                                left: 0%;
+                                transition: 0.2s linear;
+                                transform: scale(0);
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#organiccosmetics4 {
+    background-image: url(/image/parallax_03.jpg);
+    background-size: cover;
+
+    .org-cos-box4 {
+        text-align: center;
+
+        .formakeup {
+            padding: 135px 0;
+
+            h2 {
+                font-family: Mrs Saint Delafield;
+                font-size: 60px;
+                color: #DFBA9F;
+            }
+
+            h1 {
+                font-size: 60px;
+                font-family: Prata;
+                color: #fff;
+            }
+
+            p {
+                font-size: 18px;
+                color: #fff;
+                padding: 0 250px;
+                font-family: Prata;
+            }
+
+            .rmorebox {
+                padding: 50px 0;
+
+                .rmore {
+                    z-index: 1;
+                    width: 206px;
+                    height: 61px;
+                    background-color: #DFBA9F;
+                    position: relative;
+                    border: none;
+
+                    &:hover {
+                        &::after {
+                            transform: scale(1);
+                        }
+
+                        a {
+                            color: #fff;
+
+                            &::before {
+                                background-color: #fff;
+                            }
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                        font-size: 14px;
+                        padding: 21px 80px;
+                        padding-right: 10px;
+                        font-family: Roboto;
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            background-color: black;
+                            height: 1px;
+                            width: 42px;
+                            top: 31px;
+                            left: 45px;
+                        }
+                    }
+
+                    &::after {
+                        content: '';
+                        z-index: -1;
+                        position: absolute;
+                        background-color: #000;
+                        height: 61px;
+                        width: 206px;
+                        top: 0%;
+                        left: 0%;
+                        transition: 0.2s linear;
+                        transform: scale(0);
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#organiccosmetics5 {
+    background-image: url(/image/parallax-white.jpg);
+    background-size: 1880px;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    .mainsecret {
+        padding: 200px 0;
+
+        h2 {
+            font-size: 48px;
+            font-family: Mrs Saint Delafield;
+            color: #DFBA9F;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-family: Prata;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: Ubuntu;
+            // width: 600px;
+            padding: 20px 0;
+            padding-right: 50px;
+        }
+
+        .rmorebox {
+            padding: 50px 0;
+
+            .rmore {
+                z-index: 1;
+                width: 206px;
+                height: 61px;
+                background-color: #DFBA9F;
+                position: relative;
+                border: none;
+
+                &:hover {
+                    &::after {
+                        transform: scale(1);
+                    }
+
+                    a {
+                        color: #fff;
+
+                        &::before {
+                            background-color: #fff;
+                        }
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding: 21px 80px;
+                    padding-right: 10px;
+                    font-family: Roboto;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        background-color: black;
+                        height: 1px;
+                        width: 42px;
+                        top: 31px;
+                        left: 45px;
+                    }
+                }
+
+                &::after {
+                    content: '';
+                    z-index: -1;
+                    position: absolute;
+                    background-color: #000;
+                    height: 61px;
+                    width: 206px;
+                    top: 0%;
+                    left: 0%;
+                    transition: 0.2s linear;
+                    transform: scale(0);
+                }
+
+            }
+        }
+    }
+}
+
+#organiccosmetics6 {
+    background-image: url(/image/shop_BG.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+
+    .onlinestoremain {
+        padding-top: 100px;
+        text-align: center;
+
+        .onlinestore1 {
+            text-align: center;
+
+            h2 {
+                font-size: 48px;
+                color: #DFBA9F;
+                font-family: Mrs Saint Delafield;
+            }
+
+            h1 {
+                color: #fff;
+                font-size: 48px;
+                font-family: Prata;
+                line-height: 1.1rem;
+            }
+        }
+
+        .onlinestore2 {
+            text-align: center;
+            padding-left: 75px;
+            padding-top: 50px;
+
+
+            .imgbox1 {
+                position: relative;
+                width: 360px;
+                height: 480px;
+
+                span {
+                    color: #DFBA9F;
+                    font-size: 16px;
+                    font-family: Ubuntu;
+                }
+
+                .price {
+                    display: inline-block;
+                    padding-top: 30px;
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 14px;
+                    font-family: Ubuntu;
+                    font-weight: bold;
+                }
+
+                .img1 {
+                    &:hover {
+                        .rmorebox1 {
+                            visibility: visible;
+                            opacity: 1;
+
+                        }
+
+                        .rmorebox2 {
+                            visibility: visible;
+                            opacity: 1;
+                            top: 80%;
+                        }
+
+                        .overlay {
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.438);
+                        visibility: none;
+                        opacity: 0;
+                        transition: 0.2s linear;
+                    }
+
+                    .rmorebox1 {
+                        padding: 50px 0;
+                        position: absolute;
+                        top: 56%;
+                        left: 30px;
+                        transition: 0.3s linear;
+                        visibility: none;
+                        opacity: 0;
+
+                        .rmore {
+                            z-index: 1;
+                            width: 301px;
+                            height: 58px;
+                            background-color: #fff;
+                            position: relative;
+                            border: none;
+
+                            &:hover {
+                                &::after {
+                                    height: 58px;
+                                    width: 301px;
+                                    visibility: visible;
+                                    opacity: 1;
+                                }
+
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+                                font-weight: bold;
+                                font-size: 12px;
+                                padding: 21px 80px;
+                                font-family: Roboto;
+
+                                i {
+                                    padding: 0 10px;
+                                    font-size: 15px;
+                                }
+
+                            }
+
+                            &::after {
+                                content: '';
+                                z-index: -1;
+                                position: absolute;
+                                background-color: #DFBA9F;
+                                height: 58px;
+                                width: 301px;
+                                top: 0%;
+                                left: 0%;
+                                transition: 0.3s linear;
+                                visibility: hidden;
+                                opacity: 0;
+                            }
+
+                        }
+                    }
+
+                    .rmorebox2 {
+                        // padding: 50px 0;
+                        position: absolute;
+                        top: 90%;
+                        left: 30px;
+                        transition: 0.2s linear;
+                        visibility: none;
+                        opacity: 0;
+
+                        .rmore {
+                            z-index: 1;
+                            width: 301px;
+                            height: 58px;
+                            background-color: #000;
+                            position: relative;
+                            border: none;
+
+                            &:hover {
+                                &::after {
+                                    transform: scale(1);
+                                }
+
+                                a {
+                                    color: #fff;
+
+                                    &::before {
+                                        background-color: #fff;
+                                    }
+                                }
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                font-weight: bold;
+                                font-size: 14px;
+                                padding: 21px 80px;
+                                font-family: Roboto;
+
+                                i {
+                                    padding: 0 10px;
+                                    font-size: 20px;
+                                }
+                            }
+
+                            &::after {
+                                content: '';
+                                z-index: -1;
+                                position: absolute;
+                                background-color: #DFBA9F;
+                                height: 58px;
+                                width: 301px;
+                                top: 0%;
+                                left: 0%;
+                                transition: 0.2s linear;
+                                transform: scale(0);
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
+            .imgbox2 {
+                position: relative;
+                width: 360px;
+                height: 480px;
+                margin-top: 120px;
+
+                span {
+                    color: #FF735D;
+                    font-size: 16px;
+                    font-family: Ubuntu;
+                }
+
+                .delet {
+                    color: grey;
+                    font-weight: bold;
+                    padding: 0 5px;
+                }
+
+                .price {
+                    display: inline-block;
+                    padding-top: 30px;
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 14px;
+                    font-family: Ubuntu;
+                    font-weight: bold;
+                }
+
+
+                .img1 {
+                    position: relative;
+
+                    &:hover {
+                        .rmorebox1 {
+                            visibility: visible;
+                            opacity: 1;
+
+                        }
+
+                        .rmorebox2 {
+                            visibility: visible;
+                            opacity: 1;
+                            top: 80%;
+                        }
+
+                        .overlay {
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+
+                    .salebox {
+                        z-index: 3;
+                        position: absolute;
+                        top: 21px;
+                        right: 21px;
+                        width: 65px;
+                        height: 30px;
+                        border: 1px solid black;
+                        background-color: #fff;
+                        font-weight: bold;
+
+                        p {
+                            font-size: 12px;
+                            pad: 5px 0;
+                            display: inline-block;
+                        }
+                    }
+
+                    .overlay {
+                        z-index: 2;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.438);
+                        visibility: none;
+                        opacity: 0;
+                        transition: 0.2s linear;
+                    }
+
+                    .rmorebox1 {
+                        padding: 50px 0;
+                        position: absolute;
+                        top: 56%;
+                        left: 30px;
+                        transition: 0.3s linear;
+                        visibility: none;
+                        opacity: 0;
+                        z-index: 4;
+
+                        .rmore {
+                            z-index: 1;
+                            width: 301px;
+                            height: 58px;
+                            background-color: #fff;
+                            position: relative;
+                            border: none;
+
+                            &:hover {
+                                &::after {
+                                    height: 58px;
+                                    width: 301px;
+                                    visibility: visible;
+                                    opacity: 1;
+                                }
+
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+                                font-weight: bold;
+                                font-size: 12px;
+                                padding: 21px 80px;
+                                font-family: Roboto;
+
+                                i {
+                                    padding: 0 10px;
+                                    font-size: 15px;
+                                }
+
+                            }
+
+                            &::after {
+                                content: '';
+                                z-index: -1;
+                                position: absolute;
+                                background-color: #DFBA9F;
+                                height: 58px;
+                                width: 301px;
+                                top: 0%;
+                                left: 0%;
+                                transition: 0.3s linear;
+                                visibility: hidden;
+                                opacity: 0;
+                            }
+
+                        }
+                    }
+
+                    .rmorebox2 {
+                        // padding: 50px 0;
+                        position: absolute;
+                        top: 90%;
+                        left: 30px;
+                        transition: 0.2s linear;
+                        visibility: none;
+                        opacity: 0;
+                        z-index: 5;
+
+                        .rmore {
+                            z-index: 1;
+                            width: 301px;
+                            height: 58px;
+                            background-color: #000;
+                            position: relative;
+                            border: none;
+
+                            &:hover {
+                                &::after {
+                                    transform: scale(1);
+                                }
+
+                                a {
+                                    color: #fff;
+
+                                    &::before {
+                                        background-color: #fff;
+                                    }
+                                }
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                font-weight: bold;
+                                font-size: 14px;
+                                padding: 21px 80px;
+                                font-family: Roboto;
+
+                                i {
+                                    padding: 0 10px;
+                                    font-size: 20px;
+                                }
+                            }
+
+                            &::after {
+                                content: '';
+                                z-index: -1;
+                                position: absolute;
+                                background-color: #DFBA9F;
+                                height: 58px;
+                                width: 301px;
+                                top: 0%;
+                                left: 0%;
+                                transition: 0.2s linear;
+                                transform: scale(0);
+                            }
+
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .rmorebox {
+            padding-top: 200px;
+
+            .rmore {
+                z-index: 1;
+                width: 206px;
+                height: 61px;
+                background-color: #DFBA9F;
+                position: relative;
+                border: none;
+
+                &:hover {
+                    &::after {
+                        transform: scale(1);
+                    }
+
+                    a {
+                        color: #000;
+
+                        &::before {
+                            background-color: #000;
+                        }
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding: 21px 80px;
+                    padding-right: 10px;
+                    font-family: Roboto;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        background-color: black;
+                        height: 1px;
+                        width: 42px;
+                        top: 31px;
+                        left: 45px;
+                    }
+                }
+
+                &::after {
+                    content: '';
+                    z-index: -1;
+                    position: absolute;
+                    background-color: #fff;
+                    height: 61px;
+                    width: 206px;
+                    top: 0%;
+                    left: 0%;
+                    transition: 0.2s linear;
+                    transform: scale(0);
+                }
+
+            }
+        }
+    }
+
+
+}
+
+#organiccosmetics7 {
+    background-color: #F9F1EC;
+
+    .partnerboxes {
+        display: grid;
+        grid-template-columns: repeat(6, 200px);
+        padding: 80px 0;
+
+        .partnerbox1 {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 170px;
+                background-color: #fff;
+                top: -35px;
+                right: 50px;
+            }
+        }
+
+        .partnerbox2 {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 170px;
+                background-color: #fff;
+                top: -35px;
+                right: 50px;
+            }
+        }
+
+        .partnerbox3 {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 170px;
+                background-color: #fff;
+                top: -35px;
+                right: 50px;
+            }
+        }
+
+        .partnerbox4 {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 170px;
+                background-color: #fff;
+                top: -35px;
+                right: 50px;
+            }
+        }
+
+        .partnerbox5 {
+            position: relative;
+            padding-top: 25px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 170px;
+                background-color: #fff;
+                top: -35px;
+                right: 35px;
+            }
+        }
+    }
+}
+
+#organiccosmetics8 {
+    .newsmain {
+        padding: 120px 0;
+
+        .news {
+            text-align: center;
+
+            h2 {
+                font-family: Mrs Saint Delafield;
+                font-size: 48px;
+                color: #DFBA9F;
+                margin-bottom: -11px;
+            }
+
+            h1 {
+                font-family: Prata;
+                font-size: 48px;
+            }
+        }
+
+        .imgbox {
+            margin-top: 30px;
+
+            .img1 {
+                position: relative;
+                .imga {
+                    &:hover {
+                        &::before {
+                            visibility: visible;
+                            opacity: 1;
+                            width: 320px;
+                        }
+
+                        &::after {
+                            visibility: visible;
+                            opacity: 1;
+                            height: 193px;
+                        }
+                    }
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 0px;
+                        height: 1px;
+                        background-color: #fff;
+                        top: 15px;
+                        left: 15px;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: 0.3s linear;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 1px;
+                        height: 0px;
+                        background-color: #fff;
+                        top: 15px;
+                        left: 15px;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: 0.3s linear;
+                    }
+                }
+
+                &:hover {
+                    &::before {
+                        visibility: visible;
+                        opacity: 1;
+                        width: 320px;
+                    }
+
+                    &::after {
+                        visibility: visible;
+                        opacity: 1;
+                        height: 193px;
+                    }
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 0px;
+                    height: 1px;
+                    background-color: #fff;
+                    bottom: 20px;
+                    right: 20px;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: 0.3s linear;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 1px;
+                    height: 0px;
+                    background-color: #fff;
+                    bottom: 20px;
+                    right: 20px;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: 0.3s linear;
+                }
+                .rmorebox {
+                    padding: 30px 30px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: 0.3s linear;
+                    .rmore {
+                        width: 100px;
+                        height: 30px;
+                        background-color: #000;
+                        position: relative;
+                        border: none;
+                        transition: 0.3s ease-in-out;
+                        &:hover {
+                            background-color: #fff;
+                            a{
+                                color: #000;
+                            }
+                        }
+
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                            font-size: 12px;
+                            font-family: Ubuntu;
+                        }
+                    }
+                }
+                .bottombox{
+                    position: relative;
+                    background-color: #FF735D;
+                    width: 80%;
+                    margin: auto;
+                    margin-top: -25px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
