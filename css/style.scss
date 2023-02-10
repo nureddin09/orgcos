@@ -4,21 +4,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 
-.container1 {
-    width: 90%;
-    margin: auto;
-}
 
+
+@media (max-width:576px) {
+    #organiccosmetics1{
+        position: relative;
+        .org-cos-box{
+            position: relative;
+            .imag1{
+                position: absolute;
+            }
+            .imag2{
+                position: absolute;
+            }
+            .imag3{
+                position: absolute;
+            }
+            .textover{
+                position: absolute;
+                // width: 56px;
+                // height: 143px;
+                h1{
+                    color: red;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
 #organiccosmetics1 {
     position: relative;
     background-image: url(/image/pscratches.jpg);
 
     .org-cos-box {
         position: relative;
-        width: 100%;
         top: 90px;
         height: 1000px;
-
         .imag1 {
             position: absolute;
             top: 35%;
@@ -1093,7 +1114,7 @@
 
 #organiccosmetics8 {
     .newsmain {
-        padding: 120px 0;
+        padding-top: 100px;
 
         .news {
             text-align: center;
@@ -1113,95 +1134,151 @@
 
         .imgbox {
             margin-top: 30px;
-
-            .img1 {
-                position: relative;
-                .imga {
+            .imgbox1{
+                .bottombox{
+                    position: relative;
+                    background-color: #fff;
+                    width: 80%;
+                    margin: auto;
+                    top: -50px;
+                    text-align: center;
+                    .datefeb{
+                        font-size: 12px;
+                        font-family: Ubuntu;
+                        font-weight: bold;
+                        padding-top: 17px;
+                        a{
+                            text-decoration: none;
+                            color: #14141491;
+                        }
+                    }
+                    .fashionfor{
+                        a{
+                            font-size: 16px;
+                            font-family: Prata;
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+                    .readmore{
+                        .areadmore{
+                            position: relative;
+                            font-size: 12px;
+                            font-family: Ubuntu;
+                            color: #DFBA9F;
+                            text-decoration: none;
+                            top: -10px;
+                            left: 10px;
+                            transition: 0.3s linear;
+                            &:hover{
+                             left: -5px;
+                             &::before{
+                                left: -30px;
+                                width: 120px;
+                             }
+                            }
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                width: 37px;
+                                height: 1px;
+                                background-color: #DFBA9F;
+                                left: -50px;
+                                top: 7px;
+                                transition: 0.3s linear;
+                            }
+                        }
+                    }
+                }
+                .img1 {
+                    position: relative;
+                    .imga {
+                        &:hover {
+                            &::before {
+                                visibility: visible;
+                                opacity: 1;
+                                width: 320px;
+                            }
+    
+                            &::after {
+                                visibility: visible;
+                                opacity: 1;
+                                height: 193px;
+                            }
+                        }
+    
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            width: 0px;
+                            height: 1px;
+                            background-color: #fff;
+                            top: 15px;
+                            left: 15px;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: 0.3s linear;
+                        }
+    
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 1px;
+                            height: 0px;
+                            background-color: #fff;
+                            top: 15px;
+                            left: 15px;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: 0.3s linear;
+                        }
+                    }
+    
                     &:hover {
                         &::before {
                             visibility: visible;
                             opacity: 1;
                             width: 320px;
                         }
-
+    
                         &::after {
                             visibility: visible;
                             opacity: 1;
                             height: 193px;
                         }
                     }
-
+    
                     &::before {
                         content: '';
                         position: absolute;
                         width: 0px;
                         height: 1px;
                         background-color: #fff;
-                        top: 15px;
-                        left: 15px;
+                        bottom: 20px;
+                        right: 20px;
                         visibility: hidden;
                         opacity: 0;
                         transition: 0.3s linear;
                     }
-
+    
                     &::after {
                         content: '';
                         position: absolute;
                         width: 1px;
                         height: 0px;
                         background-color: #fff;
-                        top: 15px;
-                        left: 15px;
+                        bottom: 20px;
+                        right: 20px;
                         visibility: hidden;
                         opacity: 0;
                         transition: 0.3s linear;
                     }
                 }
-
-                &:hover {
-                    &::before {
-                        visibility: visible;
-                        opacity: 1;
-                        width: 320px;
-                    }
-
-                    &::after {
-                        visibility: visible;
-                        opacity: 1;
-                        height: 193px;
-                    }
-                }
-
-                &::before {
-                    content: '';
-                    position: absolute;
-                    width: 0px;
-                    height: 1px;
-                    background-color: #fff;
-                    bottom: 20px;
-                    right: 20px;
-                    visibility: hidden;
-                    opacity: 0;
-                    transition: 0.3s linear;
-                }
-
-                &::after {
-                    content: '';
-                    position: absolute;
-                    width: 1px;
-                    height: 0px;
-                    background-color: #fff;
-                    bottom: 20px;
-                    right: 20px;
-                    visibility: hidden;
-                    opacity: 0;
-                    transition: 0.3s linear;
-                }
                 .rmorebox {
-                    padding: 30px 30px;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+                    // padding: 30px 30px;
+                    position: relative;
+                    top: -200px;
+                    left: 30px;
                     transition: 0.3s linear;
                     .rmore {
                         width: 100px;
@@ -1225,15 +1302,9 @@
                         }
                     }
                 }
-                .bottombox{
-                    position: relative;
-                    background-color: #FF735D;
-                    width: 80%;
-                    margin: auto;
-                    margin-top: -25px;
-                    text-align: center;
-                }
             }
+
         }
     }
 }
+

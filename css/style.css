@@ -3,18 +3,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
-.container1 {
-  width: 90%;
-  margin: auto;
+@media (max-width: 576px) {
+  #organiccosmetics1 {
+    position: relative;
+  }
+  #organiccosmetics1 .org-cos-box {
+    position: relative;
+  }
+  #organiccosmetics1 .org-cos-box .imag1 {
+    position: absolute;
+  }
+  #organiccosmetics1 .org-cos-box .imag2 {
+    position: absolute;
+  }
+  #organiccosmetics1 .org-cos-box .imag3 {
+    position: absolute;
+  }
+  #organiccosmetics1 .org-cos-box .textover {
+    position: absolute;
+  }
+  #organiccosmetics1 .org-cos-box .textover h1 {
+    color: red;
+    font-size: 50px;
+  }
 }
-
 #organiccosmetics1 {
   position: relative;
   background-image: url(/image/pscratches.jpg);
 }
 #organiccosmetics1 .org-cos-box {
   position: relative;
-  width: 100%;
   top: 90px;
   height: 1000px;
 }
@@ -892,7 +910,7 @@
 }
 
 #organiccosmetics8 .newsmain {
-  padding: 120px 0;
+  padding-top: 100px;
 }
 #organiccosmetics8 .newsmain .news {
   text-align: center;
@@ -910,20 +928,71 @@
 #organiccosmetics8 .newsmain .imgbox {
   margin-top: 30px;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox {
+  position: relative;
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  top: -50px;
+  text-align: center;
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox .datefeb {
+  font-size: 12px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  padding-top: 17px;
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox .datefeb a {
+  text-decoration: none;
+  color: rgba(20, 20, 20, 0.568627451);
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox .fashionfor a {
+  font-size: 16px;
+  font-family: Prata;
+  text-decoration: none;
+  color: #000;
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox .readmore .areadmore {
+  position: relative;
+  font-size: 12px;
+  font-family: Ubuntu;
+  color: #DFBA9F;
+  text-decoration: none;
+  top: -10px;
+  left: 10px;
+  transition: 0.3s linear;
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox .readmore .areadmore:hover {
+  left: -5px;
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox .readmore .areadmore:hover::before {
+  left: -30px;
+  width: 120px;
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .bottombox .readmore .areadmore::before {
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 1px;
+  background-color: #DFBA9F;
+  left: -50px;
+  top: 7px;
+  transition: 0.3s linear;
+}
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1 {
   position: relative;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .imga:hover::before {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1 .imga:hover::before {
   visibility: visible;
   opacity: 1;
   width: 320px;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .imga:hover::after {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1 .imga:hover::after {
   visibility: visible;
   opacity: 1;
   height: 193px;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .imga::before {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1 .imga::before {
   content: "";
   position: absolute;
   width: 0px;
@@ -935,7 +1004,7 @@
   opacity: 0;
   transition: 0.3s linear;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .imga::after {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1 .imga::after {
   content: "";
   position: absolute;
   width: 1px;
@@ -947,17 +1016,17 @@
   opacity: 0;
   transition: 0.3s linear;
 }
-#organiccosmetics8 .newsmain .imgbox .img1:hover::before {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1:hover::before {
   visibility: visible;
   opacity: 1;
   width: 320px;
 }
-#organiccosmetics8 .newsmain .imgbox .img1:hover::after {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1:hover::after {
   visibility: visible;
   opacity: 1;
   height: 193px;
 }
-#organiccosmetics8 .newsmain .imgbox .img1::before {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1::before {
   content: "";
   position: absolute;
   width: 0px;
@@ -969,7 +1038,7 @@
   opacity: 0;
   transition: 0.3s linear;
 }
-#organiccosmetics8 .newsmain .imgbox .img1::after {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .img1::after {
   content: "";
   position: absolute;
   width: 1px;
@@ -981,14 +1050,13 @@
   opacity: 0;
   transition: 0.3s linear;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox {
-  padding: 30px 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .rmorebox {
+  position: relative;
+  top: -200px;
+  left: 30px;
   transition: 0.3s linear;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .rmorebox .rmore {
   width: 100px;
   height: 30px;
   background-color: #000;
@@ -996,23 +1064,15 @@
   border: none;
   transition: 0.3s ease-in-out;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore:hover {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .rmorebox .rmore:hover {
   background-color: #fff;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore:hover a {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .rmorebox .rmore:hover a {
   color: #000;
 }
-#organiccosmetics8 .newsmain .imgbox .img1 .rmorebox .rmore a {
+#organiccosmetics8 .newsmain .imgbox .imgbox1 .rmorebox .rmore a {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
   font-family: Ubuntu;
-}
-#organiccosmetics8 .newsmain .imgbox .img1 .bottombox {
-  position: relative;
-  background-color: #FF735D;
-  width: 80%;
-  margin: auto;
-  margin-top: -25px;
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */
